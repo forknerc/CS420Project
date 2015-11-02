@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class WowUiGenerator : MonoBehaviour
 {
-    public float SidePadding;
-
     public float TimeBetweenWows;
 
     public float WowDuration;
