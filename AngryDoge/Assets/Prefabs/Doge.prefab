@@ -9,6 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 409394}
   - 54: {fileID: 5456436}
+  - 114: {fileID: 11476446}
   m_Layer: 0
   m_Name: Doge
   m_TagString: Untagged
@@ -121,6 +122,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.50999999, y: 1.09000003, z: .451593071}
   m_Center: {x: -.0599999987, y: .649999976, z: .00649148226}
+--- !u!114 &11476446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b2b80c1547ffe40b81fb73f0a29e67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeUntilDespawn: 10
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
