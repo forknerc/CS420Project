@@ -10,6 +10,8 @@ public class CannonController : MonoBehaviour {
     public float rightLimit;
     public float leftLimit;
 
+    public GameObject CannonChild;
+
     public GameObject DogePrefab;
     public GameObject DogeParent;
 
@@ -28,13 +30,13 @@ public class CannonController : MonoBehaviour {
     {
         if(upPressed && upDownRotation < upLimit )
         {
-            transform.Rotate(Vector3.left * rotationMultiplier);
+            CannonChild.transform.Rotate(Vector3.left * rotationMultiplier);
             upDownRotation += rotationMultiplier;
         }
 
         if(downPressed && upDownRotation > downLimit)
         {
-            transform.Rotate(Vector3.right * rotationMultiplier);
+            CannonChild.transform.Rotate(Vector3.right * rotationMultiplier);
             upDownRotation -= rotationMultiplier;
         }
 
