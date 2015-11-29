@@ -11,9 +11,12 @@ public class CannonController : MonoBehaviour {
     public float leftLimit;
 
     public GameObject CannonChild;
+    public GameObject DogeFiringPoint;
 
     public GameObject DogePrefab;
     public GameObject DogeParent;
+
+    public ParticleSystem FireParticles;
 
     public float MaxCannonPower;
     public Slider PowerSlider;
@@ -77,9 +80,11 @@ public class CannonController : MonoBehaviour {
 
     public void FireCannon()
     {
-        var newDoge = Instantiate(DogePrefab, transform.position, transform.rotation) as GameObject;
+        var newDoge = Instantiate(DogePrefab, DogeFiringPoint.transform.position, transform.rotation) as GameObject;
         newDoge.transform.SetParent(DogeParent.transform, true);
         newDoge.GetComponent<Rigidbody>().AddForce(CannonChild.transform.forward.normalized * MaxCannonPower * PowerSlider.value, 
             ForceMode.Impulse);
+
+        FireParticles.Play();
     }
 }
