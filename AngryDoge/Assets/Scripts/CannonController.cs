@@ -5,10 +5,10 @@ using System.Collections;
 public class CannonController : MonoBehaviour {
     public float rotationMultiplier;
 
-    public float upLimit = 45.0f;
-    public float downLimit = 0.0f;
-    public float rightLimit = 45.0f;
-    public float leftLimit = 45.0f;
+    public float upLimit;
+    public float downLimit;
+    public float rightLimit;
+    public float leftLimit;
 
     public GameObject DogePrefab;
     public GameObject DogeParent;
@@ -16,48 +16,40 @@ public class CannonController : MonoBehaviour {
     public float MaxCannonPower;
     public Slider PowerSlider;
 
-    private float upRotation = 15.0f;
-    private float downRotation = 0.0f;
-    private float rightRotation = 0.0f;
-    private float leftRotation = 0.0f;
+    private float upDownRotation = 15.0f;
+    private float leftRightRotation = 0.0f;
 
     private bool upPressed = false;
     private bool downPressed = false;
     private bool leftPressed = false;
     private bool rightPressed = false;
 
-    // Use this for initialization
-    void Start ()
-    {
-        rotationMultiplier = 2.0f;
-	}
-
     void FixedUpdate()
     {
-        if(upPressed && transform.rotation.eulerAngles.y < upLimit )
-        {
-            transform.Rotate(Vector3.right * rotationMultiplier);
-        }
-
-        if(downPressed && leftRotation < downLimit)
+        if(upPressed && upDownRotation < upLimit )
         {
             transform.Rotate(Vector3.left * rotationMultiplier);
+            upDownRotation += rotationMultiplier;
         }
 
-        if(leftPressed && leftRotation < leftLimit)
+        if(downPressed && upDownRotation > downLimit)
+        {
+            transform.Rotate(Vector3.right * rotationMultiplier);
+            upDownRotation -= rotationMultiplier;
+        }
+
+        if(leftPressed && leftRightRotation > leftLimit)
         {
             transform.Rotate(Vector3.down * rotationMultiplier);
-            leftRotation += Vector3.down.y * rotationMultiplier;
-            rightRotation -= Vector3.down.y * rotationMultiplier;
+            leftRightRotation -= rotationMultiplier;
         }
 
-        if(rightPressed && rightRotation < rightLimit)
+        if(rightPressed && leftRightRotation < rightLimit)
         {
             transform.Rotate(Vector3.up * rotationMultiplier);
-            rightRotation += Vector3.up.y * rotationMultiplier;
-            leftRotation -= Vector3.up.y * rotationMultiplier;
+            leftRightRotation += rotationMultiplier;
 
-            Debug.Log(rightRotation);
+            // Debug.Log(rightRotation);
         }
     }
 
