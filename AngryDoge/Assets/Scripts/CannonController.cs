@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class CannonController : MonoBehaviour {
@@ -10,8 +11,10 @@ public class CannonController : MonoBehaviour {
     public float leftLimit = 45.0f;
 
     public GameObject DogePrefab;
+    public GameObject DogeParent;
 
-    public float CannonPower; 
+    public float MaxCannonPower;
+    public Slider PowerSlider;
 
     private float upRotation = 15.0f;
     private float downRotation = 0.0f;
@@ -81,6 +84,8 @@ public class CannonController : MonoBehaviour {
     public void FireCannon()
     {
         var newDoge = Instantiate(DogePrefab, transform.position, transform.rotation) as GameObject;
-        newDoge.GetComponent<Rigidbody>().AddForce(transform.forward.normalized * CannonPower, ForceMode.Impulse);
+        newDoge.transform.SetParent(DogeParent.transform, true);
+        newDoge.GetComponent<Rigidbody>().AddForce(transform.forward.normalized * MaxCannonPower * PowerSlider.value, 
+            ForceMode.Impulse);
     }
 }
