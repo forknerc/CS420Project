@@ -9,6 +9,10 @@ public class CannonController : MonoBehaviour {
     public float rightLimit = 45.0f;
     public float leftLimit = 45.0f;
 
+    public GameObject DogePrefab;
+
+    public float CannonPower; 
+
     private float upRotation = 15.0f;
     private float downRotation = 0.0f;
     private float rightRotation = 0.0f;
@@ -72,5 +76,11 @@ public class CannonController : MonoBehaviour {
     public void rotateCannonRight()
     {
         rightPressed = !rightPressed;
+    }
+
+    public void FireCannon()
+    {
+        var newDoge = Instantiate(DogePrefab, transform.position, transform.rotation) as GameObject;
+        newDoge.GetComponent<Rigidbody>().AddForce(transform.forward.normalized * CannonPower, ForceMode.Impulse);
     }
 }
