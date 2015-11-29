@@ -79,7 +79,7 @@ public class CannonController : MonoBehaviour {
     {
         var newDoge = Instantiate(DogePrefab, transform.position, transform.rotation) as GameObject;
         newDoge.transform.SetParent(DogeParent.transform, true);
-        newDoge.GetComponent<Rigidbody>().AddForce(transform.forward.normalized * MaxCannonPower * PowerSlider.value, 
+        newDoge.GetComponent<Rigidbody>().AddForce(CannonChild.transform.forward.normalized * MaxCannonPower * PowerSlider.value, 
             ForceMode.Impulse);
     }
 }
