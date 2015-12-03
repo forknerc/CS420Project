@@ -493,7 +493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b5fb3f2d0174974684c7ff1af48ca7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationMultiplier: 1
+  rotationMultiplier: .5
   upLimit: 45
   downLimit: 0
   rightLimit: 45
@@ -654,7 +654,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 350384211}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 504494539}
+        m_MethodName: ChangeCamera
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &350384211
@@ -1357,6 +1368,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 504494538}
+  - 114: {fileID: 504494539}
   m_Layer: 0
   m_Name: Cameras
   m_TagString: Untagged
@@ -1379,6 +1391,21 @@ Transform:
   - {fileID: 406275792}
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &504494539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 504494537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 941787c65b4dd4c49b3764ef97d656b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameCameras:
+  - {fileID: 1167170483}
+  - {fileID: 611859117}
+  - {fileID: 406275791}
 --- !u!1 &510153886
 GameObject:
   m_ObjectHideFlags: 0
@@ -4670,7 +4697,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1521061208}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 504494539}
+        m_MethodName: ChangeCamera
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1521061208
@@ -6392,6 +6430,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 504494539}
+        m_MethodName: ChangeCamera
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 0}
         m_MethodName: 
         m_Mode: 1
