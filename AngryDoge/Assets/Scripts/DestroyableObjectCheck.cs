@@ -3,7 +3,9 @@ using System.Collections;
 
 public class DestroyableObjectCheck : MonoBehaviour
 {
-    public float forceThresh = 200;
+    public float forceThresh;
+
+    public float ScoreOnDestruction; 
 
     // Use this for initialization
     void Start()
@@ -38,6 +40,7 @@ public class DestroyableObjectCheck : MonoBehaviour
         if (coForce > forceThresh)
         {
             Debug.Log("Above Threshold");
+            GameDataManager.Instance.CurrentScore += ScoreOnDestruction;
             Destroy(gameObject);
         }
 

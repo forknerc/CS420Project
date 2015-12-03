@@ -1,13 +1,37 @@
 ﻿using UnityEngine;
-using System.Collections;
-
-public class GameDataManager : MonoBehaviour 
+using UnityEngine.UI;
+public class GameDataManager : Singleton<GameDataManager> 
 {
-    public static float CurrentScore;
+    public string ScorePretext;
+    public Text ScoreText;
 
-    public static float ShotsLeft;
+    public float CurrentScore
+    {
+        get
+        {
+            return currentScore;
+        }
+        set
+        {
+            if(currentScore != value)
+            {
+                currentScore = value;
+                ScoreText.text = ScorePretext + currentScore;
+            }
+        }
+    }
 
-    public static GameState CurrentGameState;
+    public float ShotsLeft;
+
+    public GameState CurrentGameState;
+
+    private float currentScore;
+
+    protected void Start()
+    {
+        CurrentScore = 0;
+        ScoreText.text = ScorePretext + CurrentScore;
+    }
 }
 
 public enum GameState
