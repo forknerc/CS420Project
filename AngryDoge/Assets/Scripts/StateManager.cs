@@ -14,4 +14,14 @@ public class StateManager : MonoBehaviour
 	{
 	
 	}
+
+    public void exitApplication()
+    {
+        if(Application.isEditor)
+        {
+            UnityEditor.EditorApplication.isPlaying = false;
+        }
+
+        Application.Quit();
+    }
 }

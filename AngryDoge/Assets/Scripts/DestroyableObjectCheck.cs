@@ -21,9 +21,6 @@ public class DestroyableObjectCheck : MonoBehaviour
 
     void OnCollisionEnter(Collision co)
     {
-        Debug.Log("Enter");
-        Debug.Log(name + " Colliding with " + co.gameObject.name);
-
         var hittingObject = co.gameObject.GetComponent<Rigidbody>();
 
         if (hittingObject == null)
@@ -39,7 +36,6 @@ public class DestroyableObjectCheck : MonoBehaviour
         // If force is less than set unit then destroy object, else nothing happens
         if (coForce > forceThresh)
         {
-            Debug.Log("Above Threshold");
             GameDataManager.Instance.CurrentScore += ScoreOnDestruction;
             Destroy(gameObject);
         }
