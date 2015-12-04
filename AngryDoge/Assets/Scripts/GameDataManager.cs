@@ -37,6 +37,7 @@ public class GameDataManager : Singleton<GameDataManager>
 public enum GameState
 {
     MainMenu,
+    SelectingLevels,
     Playing,
     Paused
 }
