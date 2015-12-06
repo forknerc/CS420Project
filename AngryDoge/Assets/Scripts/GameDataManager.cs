@@ -27,6 +27,8 @@ public class GameDataManager : Singleton<GameDataManager>
 
     private float currentScore;
 
+    private float recentScore;
+
     protected void Start()
     {
         CurrentScore = 0;
