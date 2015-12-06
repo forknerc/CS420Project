@@ -1,19 +1,10 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 public class StateManager : MonoBehaviour 
 {
-	// Use this for initialization
-	void Start () 
-	{
-	
-	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-	
-	}
+    public List<GameObject> levels;
+    private GameObject currentLevel;
 
     public void exitApplication()
     {
@@ -25,9 +16,14 @@ public class StateManager : MonoBehaviour
         Application.Quit();
     }
 
-    public void levelSelection()
+    public void levelSelection(int selected)
     {
+        if(currentLevel != null)
+        {
+            Destroy(currentLevel);
+        }
 
+        currentLevel = Instantiate(levels[selected], new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
+        currentLevel.gameObject.SetActive(true);
     }
-
 }
