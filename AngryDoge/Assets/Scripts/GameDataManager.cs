@@ -15,6 +15,15 @@ public class GameDataManager : Singleton<GameDataManager>
         {
             if(currentScore != value)
             {
+                if(value > RecentScoreCelebrationAmount)
+                {
+                    // Show wows
+                    if(WowGenerator.isActiveAndEnabled)
+                    {
+                        WowGenerator.GenerateWows();
+                    }
+                }
+
                 currentScore = value;
                 ScoreText.text = ScorePretext + currentScore;
             }
@@ -23,11 +32,13 @@ public class GameDataManager : Singleton<GameDataManager>
 
     public float ShotsLeft;
 
+    public float RecentScoreCelebrationAmount;
+
+    public WowUiGenerator WowGenerator;
+
     public GameState CurrentGameState;
 
     private float currentScore;
-
-    private float recentScore;
 
     protected void Start()
     {
