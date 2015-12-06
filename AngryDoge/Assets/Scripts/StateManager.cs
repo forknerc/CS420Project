@@ -24,4 +24,10 @@ public class StateManager : MonoBehaviour
 
         Application.Quit();
     }
+
+    public void levelSelection()
+    {
+
+    }
+
 }
