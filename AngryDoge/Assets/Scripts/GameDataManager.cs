@@ -15,7 +15,7 @@ public class GameDataManager : Singleton<GameDataManager>
         {
             if(currentScore != value)
             {
-                if(value > RecentScoreCelebrationAmount)
+                if(value - currentScore > RecentScoreCelebrationAmount)
                 {
                     // Show wows
                     if(WowGenerator.isActiveAndEnabled)

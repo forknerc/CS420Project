@@ -2522,7 +2522,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &192552
 GameObject:
   m_ObjectHideFlags: 0
@@ -3406,7 +3406,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -.140000001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 478752}
@@ -8845,7 +8845,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 126776}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -8860,7 +8860,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 143126}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -8875,7 +8875,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 132270}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -8890,7 +8890,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 170904}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -8905,7 +8905,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 194776}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -8920,7 +8920,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 106744}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -8935,7 +8935,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 130004}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -8950,7 +8950,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164062}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -8965,7 +8965,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 185712}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -8980,7 +8980,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149032}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -8995,7 +8995,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 118432}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9010,7 +9010,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 128590}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9025,7 +9025,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169878}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9040,7 +9040,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119624}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9055,7 +9055,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 106250}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9070,7 +9070,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149290}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9085,7 +9085,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 157104}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9100,7 +9100,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155548}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9115,7 +9115,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 134002}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9130,7 +9130,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 197232}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9145,7 +9145,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 146184}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9160,7 +9160,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 192552}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9175,7 +9175,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164540}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9190,7 +9190,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 154360}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9205,7 +9205,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121094}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9220,7 +9220,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 162718}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9235,7 +9235,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 147738}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9250,7 +9250,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 139388}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9265,7 +9265,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164482}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9280,7 +9280,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 103496}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9295,7 +9295,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 139312}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9310,7 +9310,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 156344}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9325,7 +9325,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 161968}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9340,7 +9340,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 106340}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9370,7 +9370,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 133524}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9385,7 +9385,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 160664}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9400,7 +9400,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199304}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9415,7 +9415,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 178816}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9430,7 +9430,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 146742}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9445,7 +9445,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 110070}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9460,7 +9460,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 161706}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9475,7 +9475,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 126206}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9490,7 +9490,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190394}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9505,7 +9505,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 144868}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9520,7 +9520,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 116398}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9535,7 +9535,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 104676}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9550,7 +9550,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158222}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9565,7 +9565,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 132164}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9580,7 +9580,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 132428}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9595,7 +9595,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 104822}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9610,7 +9610,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 106806}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9625,7 +9625,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 168672}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9640,7 +9640,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 102540}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9655,7 +9655,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 165978}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9670,7 +9670,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 125624}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9685,7 +9685,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 179112}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9700,7 +9700,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 113958}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9715,7 +9715,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 131334}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9730,7 +9730,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 163640}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9745,7 +9745,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 146704}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9760,7 +9760,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 167174}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9775,7 +9775,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 114952}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9790,7 +9790,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 145090}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9805,7 +9805,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 182090}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9820,7 +9820,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 104074}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9835,7 +9835,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 157604}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9850,7 +9850,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 104174}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9865,7 +9865,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 109944}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9880,7 +9880,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159166}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9895,7 +9895,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 104262}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9910,7 +9910,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 178896}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9925,7 +9925,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155976}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9940,7 +9940,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 127064}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9955,7 +9955,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 192778}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9970,7 +9970,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 187770}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -9985,7 +9985,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 177762}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10000,7 +10000,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 192938}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10015,7 +10015,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 112534}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10030,7 +10030,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 130522}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10045,7 +10045,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 117370}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10060,7 +10060,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 152842}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10075,7 +10075,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 132460}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10090,7 +10090,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123470}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10105,7 +10105,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 113206}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10120,7 +10120,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 136774}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10135,7 +10135,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 148390}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10150,7 +10150,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 168728}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10165,7 +10165,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 197334}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10180,7 +10180,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 177084}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10195,7 +10195,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 154984}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10210,7 +10210,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159092}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10225,7 +10225,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149102}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10240,7 +10240,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 165786}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10255,7 +10255,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 173704}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10270,7 +10270,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175344}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10285,7 +10285,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 127724}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10300,7 +10300,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155158}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10315,7 +10315,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159134}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10330,7 +10330,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 165402}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10345,7 +10345,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123768}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10360,7 +10360,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 162802}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10375,7 +10375,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 174226}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10390,7 +10390,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 131526}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10405,7 +10405,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 145004}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10420,7 +10420,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149924}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10435,7 +10435,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 189244}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10450,7 +10450,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 197588}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10465,7 +10465,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 132308}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10480,7 +10480,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 171246}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10495,7 +10495,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 142336}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10510,7 +10510,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 194152}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10525,7 +10525,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 104714}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10540,7 +10540,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 114976}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10555,7 +10555,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 116042}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10570,7 +10570,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199996}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10585,7 +10585,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188506}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10600,7 +10600,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 173020}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10615,7 +10615,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 148762}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10630,7 +10630,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 120744}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -10645,7 +10645,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 144646}
   serializedVersion: 2
-  m_Mass: 2
+  m_Mass: .400000006
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -12104,8 +12104,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11401376
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12117,8 +12117,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11401766
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12130,8 +12130,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11402930
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12143,8 +12143,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11403426
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12156,8 +12156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11404112
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12169,8 +12169,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11404140
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12182,8 +12182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11404436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12195,8 +12195,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11404478
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12208,8 +12208,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11404582
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12221,8 +12221,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11406734
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12234,8 +12234,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11407452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12247,8 +12247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11407846
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12260,8 +12260,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11409572
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12273,8 +12273,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11412650
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12286,8 +12286,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11414368
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12299,8 +12299,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11415092
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12312,8 +12312,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11415332
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12325,8 +12325,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11415454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12338,8 +12338,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11415838
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12351,8 +12351,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11416496
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12364,8 +12364,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11416712
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12377,8 +12377,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11418000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12390,8 +12390,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11418038
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12403,8 +12403,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11418356
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12416,8 +12416,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11419422
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12429,8 +12429,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11420258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12442,8 +12442,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11420290
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12455,8 +12455,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11420428
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12468,8 +12468,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11423606
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12481,8 +12481,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11424480
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12494,8 +12494,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11424624
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12507,8 +12507,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11427110
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12520,8 +12520,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11427680
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12533,8 +12533,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11428234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12546,8 +12546,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11428962
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12559,8 +12559,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11429338
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12572,8 +12572,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11429536
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12585,8 +12585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11430018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12598,8 +12598,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11430894
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12611,8 +12611,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11431030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12624,8 +12624,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11433612
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12637,8 +12637,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11433726
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12650,8 +12650,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11434172
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12663,8 +12663,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11437380
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12676,8 +12676,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11439706
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12689,8 +12689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11439872
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12703,7 +12703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forceThresh: 15
-  ScoreOnDestruction: 0
+  ScoreOnDestruction: 500
 --- !u!114 &11440016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12715,8 +12715,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11440544
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12728,8 +12728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11441132
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12741,8 +12741,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11441272
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12754,8 +12754,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11441518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12767,8 +12767,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11442246
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12780,8 +12780,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11442516
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12793,8 +12793,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11443768
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12806,8 +12806,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11444258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12819,8 +12819,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11444306
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12832,8 +12832,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11444370
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12845,8 +12845,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11444978
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12858,8 +12858,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11445468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12871,8 +12871,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11445646
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12884,8 +12884,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11446018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12897,8 +12897,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11446160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12910,8 +12910,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11447574
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12923,8 +12923,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11447970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12936,8 +12936,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11448070
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12949,8 +12949,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11449742
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12962,8 +12962,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11450036
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12975,8 +12975,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11450142
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12988,8 +12988,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11450376
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13001,8 +13001,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11451816
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13014,8 +13014,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11452100
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13027,8 +13027,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11452916
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13040,8 +13040,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11454414
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13053,8 +13053,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11454842
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13066,8 +13066,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11457934
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13079,8 +13079,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11457960
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13092,8 +13092,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11458508
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13105,8 +13105,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11459872
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13118,8 +13118,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11460502
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13131,8 +13131,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11461702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13144,8 +13144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11461726
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13157,8 +13157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11462170
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13170,8 +13170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11463018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13183,8 +13183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11463408
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13196,8 +13196,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11464384
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13209,8 +13209,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11465296
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13222,8 +13222,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11465304
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13235,8 +13235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11468074
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13248,8 +13248,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11469880
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13261,8 +13261,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11470066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13274,8 +13274,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11471932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13287,8 +13287,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11472530
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13300,8 +13300,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11476468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13313,8 +13313,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11478064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13326,8 +13326,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11479342
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13339,8 +13339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11479384
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13352,8 +13352,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11481084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13365,8 +13365,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11481374
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13378,8 +13378,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11481454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13391,8 +13391,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11481772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13404,8 +13404,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11482018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13417,8 +13417,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11482110
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13430,8 +13430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11482484
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13443,8 +13443,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11483478
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13456,8 +13456,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11484468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13469,8 +13469,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11485538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13482,8 +13482,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11486778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13495,8 +13495,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11486926
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13508,8 +13508,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11487122
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13521,8 +13521,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11488192
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13534,8 +13534,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11489184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13547,8 +13547,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11490244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13560,8 +13560,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11494120
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13573,8 +13573,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11494730
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13586,8 +13586,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11494824
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13599,8 +13599,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11495254
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13612,8 +13612,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11498322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13625,8 +13625,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11498468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13638,8 +13638,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11499262
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13651,8 +13651,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!114 &11499540
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13664,8 +13664,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eaecf54f2f0f4344acced63b289a01d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceThresh: 50
-  ScoreOnDestruction: 0
+  forceThresh: 15
+  ScoreOnDestruction: 100
 --- !u!135 &13542930
 SphereCollider:
   m_ObjectHideFlags: 1
