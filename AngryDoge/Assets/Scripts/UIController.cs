@@ -5,13 +5,13 @@ public class UIController : MonoBehaviour
 {
     public List<GameObject> GameUIs;
 
-    // Use this for initialization
-    void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public void ChangeUI(int UINum)
+    {
+        foreach (var cam in GameUIs)
+        {
+            cam.gameObject.SetActive(false);
+        }
+
+        GameUIs[UINum].gameObject.SetActive(true);
+    }
 }

@@ -17,6 +17,7 @@ public class CannonController : MonoBehaviour {
     public GameObject DogeParent;
 
     public ParticleSystem FireParticles;
+    public AudioSource CannonSound;
 
     public float MaxCannonPower;
     public Slider PowerSlider;
@@ -86,5 +87,7 @@ public class CannonController : MonoBehaviour {
             ForceMode.Impulse);
 
         FireParticles.Play();
+        CannonSound.Play();
+
     }
 }
