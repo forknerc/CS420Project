@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// Collision detection for destroyable objects
+// Author: Jesus Flores-Padilla
 public class DestroyableObjectCheck : MonoBehaviour
 {
     public float forceThresh;
